@@ -57,8 +57,7 @@
 /* Header */
 
 header {
-  background-color: white;
-  color: white;
+ 
   margin: 0px 4%;
   border-bottom: 3px solid black;
 }
@@ -166,7 +165,6 @@ header {
 /* nav */
 
 nav {
-  background: ;
   height: 50px;
   margin: 10px 6%;
   margin-bottom: 1px;
@@ -355,7 +353,11 @@ nav ul li a:hover {
   transform: translateX(100%);
   -moz-animation: scroll-left 2s linear infinite;
   -webkit-animation: scroll-left 2s linear infinite;
-  animation: scroll-left 15s linear infinite;
+  animation: scroll-left 25s linear infinite;
+}
+.marquee p:hover{
+  animation-play-state:paused;
+  cursor:pointer;
 }
 
 @-moz-keyframes scroll-left {
@@ -389,8 +391,7 @@ nav ul li a:hover {
   }
 }
 
-#breaking marquee {
-}
+
 
 /* Accordion */
 
@@ -433,10 +434,7 @@ h1 {
   height: 460px;
 }
 
-.text {
-  padding: 10px;
-  text-align: center;
-}
+
 
 .text p {
   font-weight: normal;
@@ -460,6 +458,7 @@ h1 {
 
 .text {
   position: absolute;
+  text-align: center;
   padding: 10px;
   transition: 0.5s ease-in;
   margin-top: 10px;
@@ -609,18 +608,18 @@ footer {
 
   .footer-center {
     flex: 1;
-    flex-basis: 30%;
+    flex-basis: 33.33%;
     padding: 0px 40px;
   }
 
   .footer-left {
     flex: 1;
-    flex-basis: 50%;
+    flex-basis: 33.33%;
   }
 
   .footer-right {
     flex: 1;
-    flex-basis: 30%;
+    flex-basis: 33.33%;
   }
 }
 
@@ -1211,30 +1210,14 @@ main h2 {
     margin: 10px 0px;
     padding: 0px;
   }
-  .bottom-left {
+  .bottom-left .bottom-left-article .bottom-left-left 
+  .bottom-left-right{
     margin-left: 0px;
     margin-right: 0px;
     padding-left: 0px;
     padding-right: 0px;
   }
-  .bottom-left-article {
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  .bottom-left-left {
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-  .bottom-left-right {
-    margin-left: 0px;
-    margin-right: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
+ 
 
   .box:hover {
     height: 170%;
