@@ -803,6 +803,11 @@ main h2 {
   padding: 15px 10px;
   border-bottom: 1px black solid;
 }
+.container-top-left article img{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  /* transition: 0.5s; */
+  
+}
 
 .container-bottom-left {
   margin: 15px 10px;
@@ -1336,3 +1341,4 @@ main h2 {
   padding-right: 10px;
   font-size: 12px;
 }
+
